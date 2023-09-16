@@ -1,14 +1,15 @@
+package com.example.calc
+
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.EditText
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.text.isDigitsOnly
-import com.example.calc.R
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var inputField: EditText
+    private lateinit var inputField: TextView
     private var currentInput = ""
     private var currentOperator = ""
     private var firstOperand = 0.0
